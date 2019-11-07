@@ -24,14 +24,14 @@
 % script folder. 
 
 clear
-load('Rpeak_example.mat')
-% The R variable is a cell contains the detected R peaks.  
+load('Rpeak_example.mat') % CHANGE BY YOUR FILENAME
+% The R variable is a cell contains the detected R peaks (in seconds)
 % R{Subject, Scenario, Teammates}
-% ----- Subject: representes the couple, here we have three couples of two
+% ----- Couple (Two teammates): representes the couple, here we have three couples of two
 % participants
 % ----- Scenario: represents the experimental conditions. Scenario are
 % evaluated indeptendently (here we have 8 conditions).
-% ----- Teammates: A team is composed of 2 teammate: One PF, one PM. (must be 2)
+% ----- Teammate: One PF, one PM. A team is composed of 2 teammate. (must be 2)
 %% Synchronization
 % COICIDENCE CALCULATION 
 
